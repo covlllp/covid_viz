@@ -1,0 +1,43 @@
+{
+  "name": "covid_viz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/covlllp/covid_viz.git",
+  "author": "Colin VanLang <colinvanlang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "fetch-data": "node ./fetch_data.js",
+    "seed": "node ./seed.js",
+    "server": "node ./server",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "eslint": "^7.3.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "plotly.js": "^1.54.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-plotly.js": "^2.4.0",
+    "sequelize": "^6.2.4",
+    "sqlite3": "^5.0.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "csv-parser": "^2.3.3",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "prettier": "^2.0.5",
+    "sequelize-cli": "^6.1.0",
+    "style-loader": "^1.2.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
